@@ -7,6 +7,8 @@ body{
   }
   .content-wrapper{
     max-width: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
 }
 //Helper Classes
@@ -1099,7 +1101,7 @@ header.header-main {
 //Footer
 
 .footer-main{
-  padding: 2em 0;
+  padding: 20px 0 10px;
   border-top: 3px solid $course-section-background-color;
   background-color: #4b494f;
   .logo{
@@ -1109,7 +1111,7 @@ header.header-main {
     margin-left: 1.5em;
     li{
       color: $white;
-      padding: .3em 0;
+      padding: 20px 10px;
       display: inline-block;
       a{
         font-size: 1em;
