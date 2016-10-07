@@ -1106,24 +1106,18 @@ header.header-main {
     margin-bottom: 1em;
   }
   ul{
-    list-style: none;
     margin-left: 1.5em;
     li{
-      color: $dark;
+      color: $white;
       padding: .3em 0;
+      display: inline-block;
       a{
         font-size: 1em;
-        color: $dark !important;
+        color: $white !important;
         &:hover{
-          color: $dark !important;
+          color: #999 !important;
           text-decoration: none;
         }
-      }
-      &:first-child{
-        font-weight:bold;
-      }
-      &:last-child{
-        margin-bottom: 2em;
       }
     }
   }
