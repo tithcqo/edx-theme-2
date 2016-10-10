@@ -81,11 +81,12 @@ a{
   }
 }
 .btn-success{
-  background-color: $success-base !important;
+  background-color: $dark !important;
   color: $white !important;
   border-color: $success-base;
   &:hover{
-    background-color: lighten($success-base, 10%) !important;
+    background-color: $white !important;
+    color: $dark;
   }
 }
 .btn-block{
