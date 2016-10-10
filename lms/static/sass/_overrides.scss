@@ -9,6 +9,7 @@ body{
     max-width: none;
     padding-bottom: 0px;
     padding-top: 0px;
+    min-height: calc(100vh - 194px);
   }
 }
 //Helper Classes
@@ -91,6 +92,15 @@ a{
 }
 .btn-block{
   width: 100% !important;
+}
+.action-primary, nav-btn {
+  background: $brand-color !important;
+  box-shadow: none !important;
+  border: 1px solid $brand-color !important;
+  &:hover{
+    background-color: $white !important;
+    color: $dark !important;
+  }
 }
 .inner-container{
   padding: 0 1.25rem;
