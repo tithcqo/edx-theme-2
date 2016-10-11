@@ -176,7 +176,7 @@ from openedx.core.djangolib.js_utils import js_escaped_string
           </div>
           <div class="col col-12 sm-col-12 md-col-3 course-run">
             End Date:
-            <span>${course_details.end_date.strftime('%b %-d, %Y')}</span>
+            <span>${course.end_datetime_text()}</span>
           </div>
 
           <div class="col col-12 sm-col-12 md-col-2">
