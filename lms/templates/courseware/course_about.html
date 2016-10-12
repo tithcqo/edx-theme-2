@@ -163,13 +163,8 @@ from openedx.core.djangolib.js_utils import js_escaped_string
             <div class="main-cta">
             %if user.is_authenticated() and registered:
               %if show_courseware_link:
-                <a href="${course_target}">
-              %endif
-
-              <span class="btn-block btn-success btn-large btn-enroll register disabled">${_("You are enrolled in this course")}</span>
-
-              %if show_courseware_link:
-                <strong>${_("View Course")}</strong>
+                <a class="btn-block btn-success btn-large btn-enroll register" href="${course_target}">
+                  ${_("View Course")}
                 </a>
               %endif
 
@@ -250,14 +245,9 @@ from openedx.core.djangolib.js_utils import js_escaped_string
             ##TODO: remove code duplication
               <div class="main-cta">
                 %if user.is_authenticated() and registered:
-                  %if show_courseware_link:
-                    <a href="${course_target}">
-                  %endif
-
-                  <span class="btn-block btn-success btn-large btn-enroll register disabled">${_("You are enrolled in this course")}</span>
-
-                  %if show_courseware_link:
-                    <strong>${_("View Course")}</strong>
+                 %if show_courseware_link:
+                    <a class="btn-block btn-success btn-large btn-enroll register" href="${course_target}">
+                      ${_("View Course")}
                     </a>
                   %endif
 
