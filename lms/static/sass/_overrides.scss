@@ -67,7 +67,7 @@ a{
 }
 .btn-client, .action-primary, .nav-btn, .enter-course, .bookmark-button, .u-field-link{
   background-color: $brand-color !important;
-  border-color: $brand-color !important;
+  border: 1px solid $brand-color !important;
   font-weight: normal !important;
   box-shadow: none !important;
   color: $white !important;
