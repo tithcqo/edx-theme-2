@@ -163,7 +163,7 @@ from openedx.core.djangolib.js_utils import js_escaped_string
             <div class="main-cta">
             %if user.is_authenticated() and registered:
               %if show_courseware_link:
-                <a class="btn-block btn-success btn-large btn-enroll register" href="${course_target}">
+                <a class="btn-block btn-success btn-large btn-enroll" href="${course_target}">
                   ${_("View Course")}
                 </a>
               %endif
@@ -246,7 +246,7 @@ from openedx.core.djangolib.js_utils import js_escaped_string
               <div class="main-cta">
                 %if user.is_authenticated() and registered:
                  %if show_courseware_link:
-                    <a class="btn-block btn-success btn-large btn-enroll register" href="${course_target}">
+                    <a class="btn-block btn-success btn-large btn-enroll" href="${course_target}">
                       ${_("View Course")}
                     </a>
                   %endif

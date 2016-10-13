@@ -65,7 +65,7 @@ a{
 .light-bg{
   background-color: $course-section-background-color;
 }
-.btn-client, .action-primary, .nav-btn, .enter-course, .bookmark-button, bookmarks-list-button, .u-field-link{
+.btn-client, .btn-brand, .action-primary, .nav-btn, .enter-course, .bookmark-button, bookmarks-list-button, .u-field-link{
   background-color: $brand-color !important;
   border: 1px solid $brand-color !important;
   font-weight: normal !important;
@@ -96,6 +96,41 @@ a{
 .inner-container{
   padding: 0 1.25rem;
 }
+
+//Custom chhanges
+
+.wrapper-course-material .course-tabs li a.active, .account-nav .account-nav-link, 
+.wrapper-course-material .course-tabs li a:hover, .account-nav .account-nav-link:hover {
+  color: $dark !important;
+  border-bottom: 4px solid $dark !important;
+}
+
+.dashboard .my-courses {
+  float: none !important;
+  margin: 0 auto;
+}
+
+.login-register .login-provider{
+  font-size: 16px !important;
+  border: 1px solid $dark !important;
+  &:hover {
+    box-shadow: none !important;
+
+  }
+}
+
+.btn-link {
+  color: #5e5e5e !important;
+  &:hover {
+    color: $brand !important;
+  }
+  .btn-link.active-section {
+    color: $brand !important;
+  }
+}
+
+//
+
 h2{
   font-size: 1.5rem;
   font-family: $brand-font;
@@ -308,15 +343,6 @@ h1, h2, h3, h4, h5, h6{
      }
    }
  }
-
-.wrapper-course-material .course-tabs li a.active {
-  color: $dark !important;
-  border-bottom: 4px solid $dark !important;
-}
-
-.dashboard .my-courses {
-  float: none !important;
-}
 
 //Header
 header.header-main {
