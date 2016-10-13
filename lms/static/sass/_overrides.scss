@@ -99,10 +99,24 @@ a{
 
 //Custom chhanges
 
-.wrapper-course-material .course-tabs li a.active, .account-nav .account-nav-link, 
-.wrapper-course-material .course-tabs li a:hover, .account-nav .account-nav-link:hover {
+.wrapper-course-material .course-tabs li a.active, , 
+.wrapper-course-material .course-tabs li a:hover,
+.wrapper-course-material .course-tabs li a:focus {
   color: $dark !important;
   border-bottom: 4px solid $dark !important;
+}
+
+.account-nav .account-nav-link {
+  color: $dark !important;
+  &:hover{
+    border-bottom: 4px solid $dark !important;
+  }
+  .account-nav button.active {
+    border-bottom: 4px solid $dark !important;
+  }
+  .account-nav button:hover {
+    border-bottom: 4px solid $dark !important;
+  }
 }
 
 .dashboard .my-courses {
@@ -122,10 +136,10 @@ a{
 .btn-link {
   color: #5e5e5e !important;
   &:hover {
-    color: $brand !important;
+    color: $dark !important;
   }
   .btn-link.active-section {
-    color: $brand !important;
+    color: $dark !important;
   }
 }
 
