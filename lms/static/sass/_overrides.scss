@@ -97,6 +97,22 @@ a{
   padding: 0 1.25rem;
 }
 
+// Filesubmission
+
+.xmodule_display.xmodule_CapaModule div.problem .filesubmission .test > section .shortform {
+    margin: 25px 10px 12px;
+}
+
+.result-correct {
+    background: url(/static/images/correct-icon.297b1d332d09.png) left 20px no-repeat;
+}
+.result-output {
+    margin: 5px;
+    padding: 20px 0 15px 50px;
+    border-top: 1px solid #ddd;
+    border-left: 20px solid #fafafa;
+}
+
 //Custom chhanges
 
 .wrapper-course-material .course-tabs li a.active, , 
