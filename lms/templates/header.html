@@ -25,7 +25,7 @@ from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_
           <div class="col col-9">
             <div class="logo">
               <a class="platform-name" href="${marketing_link('ROOT')}">
-                DataSciense School
+                ${_("{platform_name}").format(platform_name=static.get_platform_name())}
               </a>
             </div>
           </div>
