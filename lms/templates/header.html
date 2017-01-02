@@ -18,7 +18,7 @@ from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_
           <div class="col col-3">
             <div class="logo">
               <a href="${marketing_link('ROOT')}">
-                <img src="${static.url('images/logo.png')}" alt="kOTIVU NG">
+                <img src="${static.url('images/logo.png')}" alt="kOTIVU NG" style="max-height: 45px; max-width: 159px;">
               </a>
             </div>
           </div>
@@ -57,6 +57,9 @@ from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_
             % endif
               <li>
                 <a href="/courses" class="brand-link">${_("Courses")}</a>
+              </li>
+               <li>
+                <a href="http://www.kotivu.ng/platforms.html" class="brand-link">${_("Other Platforms")}</a>
               </li>
                 <li>
                 <a href="http://www.kotivu.ng/" class="brand-link">${_("Go Back Home")}</a>
